@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" method="post" autocomplete="off">
+    <label for="field-name">Enter your name</label>
+    <input type="text" id="field-name" name="name" placeholder="YOUR NAME"><br><br>
+
+    <label for="field-email">Enter your email</label>
+    <input type="email" id="field-email" name="email" placeholder="YOUR EMAIL"><br><br>
+
+    <label for="field-phone">Enter your phone</label>
+    <input type="phone" id="field-phone" name="phone" placeholder="YOUR PHONE"><br><br>
+
+    <label for="field-birth">Enter your birth</label>
+    <input type="date" id="field-birth" name="birth" placeholder="YOUR BIRTH" disabled><br><br>
+
+    TEST CHECKBOX<input type="checkbox" checked><br><br>
+
+    BMW<input type="radio" name="selectcar" checked><br><br>
+    MERCEDES<input type="radio" name="selectcar"><br><br>
+
+    <textarea name="name" rows="8" cols="80" placeholder="MESSAGE"></textarea><br><br>
+
+    <select name="color[]" multiple>
+      <option value="NaServerRed">Red</option>
+      <option value="NaServerBlue" selected>Blue</option>
+      <option value="NaServerGreen" disabled>Green</option>
+      <option value="NaServerBlue">White</option>
+
+    </select>
+
+    <button type="submit" name="button">F5</button>
+    <input type="reset" name="button" value="RESET FIELDS">
+    </form>
+</body>
+</html>
